@@ -1,0 +1,28 @@
+{
+  "name": "wnt-witness",
+  "description": "Wnt witness",
+  "author": "Wnt",
+  "version": "0.1.7",
+  "main": "start.js",
+  "keywords": [
+    "witness",
+    "DAG",
+    "wnt"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/worldnuqumoritytransporters/wnt-witness.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/worldnuqumoritytransporters/wnt-witness/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "wntcore": "git+https://github.com/worldnuqumoritytransporters/wntcore.git",
+    "wnt-headless": "git+https://github.com/worldnuqumoritytransporters/wnt-headless.git"
+  }
+}
